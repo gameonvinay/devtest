@@ -35,7 +35,10 @@ export default {
   }
 }
 .btn-plus {
-  @apply h-8 w-8 flex-shrink-0 ml-4 rounded bg-gray-930;
+  @apply h-8 w-8 flex-shrink-0 ml-4 rounded bg-gray-930 focus:outline-none;
+  &:focus {
+    @apply outline-none;
+  }
   > img {
     @apply p-2;
   }
