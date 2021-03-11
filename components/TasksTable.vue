@@ -3,10 +3,7 @@
     <div class="tasks--heading__wrapper">
       <span class="tasks--heading">Tasks</span>
       <span class="flex justify-between items-center">
-        <select>
-          <option value="">Sort</option>
-          <option value="">Default</option>
-        </select>
+        <Dropdown v-bind:options="options" />
         <button class="btn-plus"
           ><img src="/icons/plus-icon.svg" alt="icon"
         /></button>
@@ -16,7 +13,14 @@
   </div>
 </template>
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      options: ['Sort', 'Alphabet', 'Date'],
+      default: 'Sort',
+    }
+  },
+}
 </script>
 <style lang="scss" scoped>
 .tasks {
@@ -31,9 +35,9 @@ export default {}
   }
 }
 .btn-plus {
-  @apply h-8 w-8 ml-3 rounded bg-gray-930;
+  @apply h-8 w-8 flex-shrink-0 ml-4 rounded bg-gray-930;
   > img {
-    @apply inline-block p-2;
+    @apply p-2;
   }
 }
 </style>

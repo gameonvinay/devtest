@@ -9077,11 +9077,6 @@ vue@^2.6.12:
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.12.tgz#f5ebd4fa6bd2869403e29a896aed4904456c9123"
   integrity sha512-uhmLFETqPPNyuLLbsKz6ioJ4q7AZHzD8ZVFNATNyICSZouqP2Sz0rotWQC8UNBF6VGSCs5abnKJoStA6JbCbfg==
 
-vuejs-progress-bar@^1.2.4:
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/vuejs-progress-bar/-/vuejs-progress-bar-1.2.4.tgz#7c9efa308b05dd1b6eb1bef85a6d06b32f8cd00d"
-  integrity sha512-6ZI/DOEsYwNbf80xk/ix+wHi5K4b4IzfX3VEmGr2drJFeem6tboxkC85n2FDhxBzwLMQJhNvosAG2jjwxe6Ijg==
-
 vuex@^3.6.2:
   version "3.6.2"
   resolved "https://registry.yarnpkg.com/vuex/-/vuex-3.6.2.tgz#236bc086a870c3ae79946f107f16de59d5895e71"

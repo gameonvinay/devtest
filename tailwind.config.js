@@ -41,19 +41,21 @@ module.exports = {
       },
       width: {
         custom: '99.5%',
+        forselect: '120px',
       },
-       minWidth: {
-       'task': '496px',
+      minWidth: {
+        task: '496px',
+        forselect: '120px',
       },
-       maxWidth: {
-       'task': '496px',
+      maxWidth: {
+        task: '496px',
       },
       boxShadow: {
         minimum: '0px 1px 0px #ececee',
         DEFAULT: '0px 1px 3px rgba(0, 0, 0, 0.1)',
       },
       borderWidth: {
-        '1': '1px',
+        1: '1px',
       },
       borderRadius: {
         DEFAULT: '3px',

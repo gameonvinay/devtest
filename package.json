@@ -15,8 +15,7 @@
     "core-js": "^3.8.3",
     "nuxt": "^2.14.12",
     "sass-loader": "^10.1.1",
-    "vue-chartjs": "^3.5.1",
-    "vuejs-progress-bar": "^1.2.4"
+    "vue-chartjs": "^3.5.1"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^5.0.0",

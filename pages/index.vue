@@ -19,5 +19,6 @@ export default {}
 .task-project-grid {
   @apply grid ml-4.5 mr-3.5;
   grid-template-columns: 2fr 1fr;
+  grid-gap: 16px;
 }
 </style>

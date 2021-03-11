@@ -23,11 +23,4 @@ html {
 *::after {
   box-sizing: border-box;
 }
-
-select {
-  border-width: 0;
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-  min-width: 120px;
-}
 </style>

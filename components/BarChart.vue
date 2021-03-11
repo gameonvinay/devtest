@@ -2,10 +2,9 @@
   <div class="barchart--wrapper">
     <div class="barchart--heading__wrapper">
       <span class="barchart--heading">This Month</span>
-      <select>
-        <option>Sales</option>
-        <option>Purchase</option>
-      </select>
+      <span>
+        <Dropdown v-bind:options="options" />
+      </span>
     </div>
     <div class="chart-container">
       <Chart
@@ -25,6 +24,8 @@ export default {
     return {
       loaded: true,
       data: this.chartdata,
+      options: ['Sales', 'Purchase', 'Profit'],
+      default: 'Sales',
     }
   },
 }
@@ -35,7 +36,7 @@ export default {
     @apply mt-13 ml-4.5 mr-3.5 mb-4 bg-white h-68 rounded-lg shadow;
   }
   &--heading__wrapper {
-    @apply flex justify-between items-center bg-gray-920 py-4 pl-4 pr-3 rounded-lg rounded-b-none;
+    @apply flex flex-1 justify-between items-center bg-gray-920 py-4 pl-4 pr-3 rounded-lg rounded-b-none;
   }
   &--heading {
     @apply text-gray-960 leading-6 text-base font-bold;
