@@ -15,12 +15,19 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+  background-color: #f2f2f2;
 }
 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
-  margin: 0;
+}
+
+select {
+  border-width: 0;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  min-width: 120px;
 }
 </style>

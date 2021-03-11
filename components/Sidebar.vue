@@ -6,7 +6,7 @@
     </h2>
     <section class="dashboard--section__wrapper">
       <h5 class="dashboard--subheading">MAIN</h5>
-      <NuxtLink class="dashboard--links" to="#"
+      <NuxtLink class="dashboard--links" to="/"
         ><span><img src="/icons/home-icon.svg" alt="icon" /></span
         ><span>Home</span></NuxtLink
       >
@@ -29,7 +29,7 @@
         ><span><img src="/icons/customers-icon.svg" alt="icon" /></span
         ><span>Customers</span></NuxtLink
       >
-      <NuxtLink class="dashboard--links" to="#"
+      <NuxtLink class="dashboard--links" to="/conversations"
         ><span><img src="/icons/conversations-icon.svg" alt="icon" /></span
         ><span>Conversations</span></NuxtLink
       >
@@ -59,13 +59,13 @@
   </aside>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .dashboard {
   &--wrapper {
-    @apply bg-blue-950 w-60 h-screen fixed;
+    @apply bg-blue-950 w-60 h-screen fixed top-0 shadow;
   }
   &--heading {
-    @apply text-white text-base leading-8 font-black tracking-steven m-3;
+    @apply text-white text-base leading-8 font-black tracking-steven mx-3 mt-3 mb-2;
     span > img {
       @apply inline-block pl-2 pr-1.5 py-2;
     }
