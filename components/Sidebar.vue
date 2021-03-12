@@ -1,10 +1,12 @@
 <!-- This is the parent component of the sidebar navigation on desktop -->
 <template>
   <aside class="dashboard--wrapper">
-    <h2 class="dashboard--heading">
-      <span><img src="/icons/dashboard-heading.svg" alt="icon" /></span
-      ><span>Dashboard UI Kit 2.0</span>
-    </h2>
+    <NuxtLink to="/">
+      <h2 class="dashboard--heading">
+        <span><img src="/icons/dashboard-heading.svg" alt="icon" /></span
+        ><span>Dashboard UI Kit 2.0</span>
+      </h2>
+    </NuxtLink>
     <section class="dashboard--section__wrapper">
       <h5 class="dashboard--subheading">MAIN</h5>
       <NuxtLink class="dashboard--links" to="/"
