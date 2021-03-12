@@ -1,5 +1,6 @@
 # devtest
 
+Netlify Link :- https://vuejs-test-vinay.netlify.app/
 ## Build Setup
 
 ```bash
