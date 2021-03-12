@@ -1,3 +1,5 @@
+<!-- This project is child component of Projects and aceepts props and data.
+Also passes props to ProgressBar to show progress bar colors -->
 <template>
   <div class="each-project--wrapper">
     <div class="each-project--sub-wrapper">

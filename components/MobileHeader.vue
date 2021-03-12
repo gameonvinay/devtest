@@ -1,3 +1,4 @@
+<!-- This is the mobile header with heading and hamburger -->
 <template>
   <div class="w-full bg-blue-950">
     <div class="header--heading">

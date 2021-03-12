@@ -1,3 +1,4 @@
+<!-- This is the desktop version of the Bar Chart -->
 <script>
 import { Bar } from 'vue-chartjs'
 

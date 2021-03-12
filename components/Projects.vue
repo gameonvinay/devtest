@@ -1,3 +1,5 @@
+<!-- This component renders the projects card. 
+It sends props and slots to EachProject component to render dynamically -->
 <template>
   <div class="projects--wrapper">
     <div class="projects--heading__wrapper">

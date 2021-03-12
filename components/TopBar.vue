@@ -1,3 +1,4 @@
+<!-- This component is parent component and renders the search bar input box with bell icon -->
 <template>
   <div class="flex justify-between mr-4 mt-4">
     <div class="relative">
@@ -30,8 +31,13 @@
   top: 8px;
   left: 7px;
 }
-
-/* Removed the X button from search bar */
+/* Removed
+  the
+  X
+  button
+  from
+  search
+  bar */
 input[type='search']::-webkit-search-decoration,
 input[type='search']::-webkit-search-cancel-button,
 input[type='search']::-webkit-search-results-button,

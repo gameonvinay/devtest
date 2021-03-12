@@ -1,3 +1,4 @@
+<!-- This is the parent component of the start new chat with a contact from contact list -->
 <template>
   <div class="flex justify-between p-3 bg-white">
     <button

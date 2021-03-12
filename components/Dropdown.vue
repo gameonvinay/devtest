@@ -1,3 +1,4 @@
+<!-- This is custom and reusable select dropdown which accepts props to display dropdown data -->
 <template>
   <div class="custom-select" :tabindex="tabindex" @blur="open = false">
     <div class="selected" :class="{ open: open }" @click="open = !open">

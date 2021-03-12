@@ -1,3 +1,4 @@
+<!-- This is the parent component of the sidebar navigation on desktop -->
 <template>
   <aside class="dashboard--wrapper">
     <h2 class="dashboard--heading">

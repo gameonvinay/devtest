@@ -1,15 +1,19 @@
+<!-- This component renders Heading of the Tasks with dropdown and add button.
+ Also renders Eachtask component -->
 <template>
   <div class="tasks--table__wrapper">
     <div class="tasks--heading__wrapper">
       <span class="tasks--heading">Tasks</span>
       <span class="flex justify-between items-center">
         <Dropdown v-bind:options="options" />
+        <!-- dropdown accepts props from data options to render -->
         <button class="btn-plus"
           ><img src="/icons/plus-icon.svg" alt="icon"
         /></button>
       </span>
     </div>
     <div><EachTask /></div>
+    <!-- This will render according to the task numbers available -->
   </div>
 </template>
 <script>

@@ -1,3 +1,4 @@
+<!-- This the conversations Page which show the current chat -->
 <template>
   <div class="flex">
     <ContactList class="shadow" />

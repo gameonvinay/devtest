@@ -1,3 +1,4 @@
+<!-- This is the Contacts component which renders equal to the number of contacts. -->
 <template>
   <div class="m-3">
     <div

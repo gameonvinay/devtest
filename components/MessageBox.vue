@@ -1,3 +1,5 @@
+<!-- This is the input field UI component on the conversation page which takes input from users 
+and option to attach file and add smiley -->
 <template>
   <div class="messagebox--wrapper">
     <input class="message-input" type="text" placeholder="Message..." />

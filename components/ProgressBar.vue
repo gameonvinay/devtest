@@ -1,3 +1,6 @@
+<!-- This is the child component of the progress bar and 
+shows the length and color according to the percentage from the data provided. -->
+
 <template>
   <div class="progress-bar">
     <div class="progress-bar-bar" :class="classname" :style="barStyle"></div>

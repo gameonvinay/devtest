@@ -1,3 +1,4 @@
+<!-- Parent component of the Contact list and New conversation -->
 <template>
   <div class="contacts--wrapper">
     <Contacts />

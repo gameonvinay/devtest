@@ -2,10 +2,12 @@
   <div>
     <div class="responsive-header lg:hidden">
       <MobileHeader />
+      <!-- For mobile -->
       <Nuxt />
     </div>
     <div class="web-sidebar hidden lg:block">
       <Sidebar />
+      <!-- For Desktop -->
       <Nuxt class="ml-60" />
     </div>
   </div>

@@ -1,3 +1,4 @@
+<!-- This component renders the chart according to display size mobile or desktop -->
 <template>
   <div class="barchart--wrapper">
     <div class="barchart--heading__wrapper">

@@ -1,3 +1,5 @@
+<!-- This component renders the chat messages according to the type of message sent.
+Image, Text, Attachment types. -->
 <template>
   <div class="rounded-lg">
     <NuxtLink to="ContactListMobilePage">

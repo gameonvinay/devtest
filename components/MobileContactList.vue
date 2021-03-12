@@ -1,9 +1,11 @@
+<!-- This list is component which displays only on mobile on ContactListMobilePage  -->
 <template>
   <div class="contacts--wrapper">
     <NuxtLink to="conversations">
       <Contacts class="mobile-contacts" />
     </NuxtLink>
     <NewConversation />
+    <!-- UI for starting a new conversation -->
   </div>
 </template>
 <script>
