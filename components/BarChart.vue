@@ -6,7 +6,15 @@
         <Dropdown :options="options" />
       </span>
     </div>
-    <div class="chart-container">
+    <div class="chart-container lg:hidden">
+      <ChartMobile
+        v-if="loaded"
+        :chartdata="data"
+        :chartoptions="options"
+        :height="190"
+      />
+    </div>
+    <div class="chart-container hidden lg:block">
       <Chart
         v-if="loaded"
         :chartdata="data"

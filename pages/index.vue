@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-930 ml-60">
+  <div class="bg-gray-930 lg:ml-60">
     <div class="ml-4">
       <TopBar />
     </div>
@@ -18,7 +18,9 @@ export default {}
 <style lang="scss">
 .task-project-grid {
   @apply grid ml-4 mr-4;
-  grid-template-columns: 2fr 1fr;
   grid-gap: 16px;
+  @media only screen and (min-width: 600px) {
+    grid-template-columns: 2fr 1fr;
+  }
 }
 </style>

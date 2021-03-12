@@ -120,8 +120,13 @@ export default {
 <style lang="scss" scoped>
 .task {
   &--wrapper {
-    @apply p-4 h-14 place-items-center border-b-1 border-gray-950 bg-white grid;
-    grid-template-columns: 1fr 16fr 2fr 2fr 2fr;
+    @apply p-4 place-items-center border-b-1 border-gray-950 bg-white grid;
+    grid-template-columns: 1fr 4fr 2fr 1fr 1fr;
+    min-height: 80px;
+    @media only screen and (min-width: 768px) {
+      grid-template-columns: 1fr 16fr 2fr 2fr 2fr;
+      min-height: 56px;
+    }
   }
   &--checkbox {
     @apply rounded w-6 h-6 border-transparent text-blue-910 bg-gray-930 focus:outline-none focus:ring-0 focus:ring-blue-910 ring-offset-0 hover:border-opacity-0 shadow-minimum justify-self-start;
@@ -133,7 +138,7 @@ export default {
     @apply text-gray-960 text-sm text-opacity-40 leading-6 justify-self-start;
   }
   &--attachment {
-    @apply justify-self-end;
+    @apply justify-center lg:justify-self-end;
     &--have {
       @apply cursor-pointer;
     }

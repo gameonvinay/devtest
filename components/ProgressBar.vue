@@ -23,8 +23,11 @@ export default {
 .progress-bar {
   height: 4px;
   background-color: #ececee;
-  width: 40%;
+  width: 46%;
   margin: 38px 16px 38px 16px;
+  @media only screen and (min-width: 768px) {
+    width: 40%;
+  }
 }
 
 .progress-bar-bar {

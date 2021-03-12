@@ -62,7 +62,7 @@
 <style lang="scss" scoped>
 .dashboard {
   &--wrapper {
-    @apply bg-blue-950 w-60 h-screen fixed top-0 shadow;
+    @apply bg-blue-950 hidden lg:block w-60 h-screen static lg:fixed top-0 shadow;
   }
   &--heading {
     @apply text-white text-base leading-8 font-black tracking-steven mx-3 mt-3 mb-2;

@@ -1,5 +1,27 @@
 <template>
   <div class="rounded-lg">
+    <NuxtLink to="ContactListMobilePage">
+      <div class="contact-list">
+        <div class="flex items-center">
+          <img
+            class="my-0.5 ml-4 mr-2 h-6 w-6 py-0.5 rounded align-middle bg-gray-930"
+            src="/profile/profile-03.png"
+            alt=""
+          />
+          <p class="text-blue-950 font-bold leading-6 align-middle"
+            >Camilla Tunney</p
+          >
+        </div>
+        <img
+          class="justify-self-end mr-4"
+          src="/icons/back-arrow-icon.svg"
+          alt=""
+        />
+      </div>
+    </NuxtLink>
+    <div class="contact-name">
+      <p class="text-blue-950 font-bold leading-6 p-4">Camilla Tunney</p>
+    </div>
     <div v-for="chat in chats" :key="chat.id" class="conversation-loop">
       <div class="conversation--wrapper">
         <div class="ml-4 mr-2 w-10 h-10">
@@ -137,6 +159,14 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+.contact-list {
+  @apply lg:hidden flex items-center justify-between bg-white mb-4 py-4 rounded;
+  height: 60px;
+}
+.contact-name {
+  @apply bg-gray-920 h-14 rounded-t-lg;
+  box-shadow: 0px 1px 0px #ececee;
+}
 .conversation {
   &--wrapper {
     @apply bg-white flex pb-4;

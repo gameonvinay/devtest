@@ -1,7 +1,13 @@
 <template>
   <div>
-    <Sidebar />
-    <Nuxt class="ml-60" />
+    <div class="responsive-header lg:hidden">
+      <MobileHeader />
+      <Nuxt />
+    </div>
+    <div class="web-sidebar hidden lg:block">
+      <Sidebar />
+      <Nuxt class="ml-60" />
+    </div>
   </div>
 </template>
 

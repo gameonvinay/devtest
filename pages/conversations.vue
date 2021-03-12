@@ -2,10 +2,10 @@
   <div class="flex">
     <ContactList class="shadow" />
     <div class="whole-conversation--wrapper">
-      <div class="ml-64">
+      <div class="ml-4 lg:ml-64">
         <TopBar />
       </div>
-      <ConversationWindow class="ml-64 my-4 mr-4 shadow" />
+      <ConversationWindow class="ml-4 lg:ml-64 my-4 mr-4 shadow" />
     </div>
   </div>
 </template>
