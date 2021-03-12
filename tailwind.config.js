@@ -42,6 +42,8 @@ module.exports = {
       width: {
         custom: '99.5%',
         forselect: '120px',
+        convbtn: '124px',
+        50: '200px',
       },
       minWidth: {
         task: '496px',

@@ -120,7 +120,7 @@ export default {
 <style lang="scss" scoped>
 .task {
   &--wrapper {
-    @apply p-4 h-14 place-items-center mb-0.25 bg-white grid;
+    @apply p-4 h-14 place-items-center border-b-1 border-gray-950 bg-white grid;
     grid-template-columns: 1fr 16fr 2fr 2fr 2fr;
   }
   &--checkbox {

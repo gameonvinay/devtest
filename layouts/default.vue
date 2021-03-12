@@ -1,6 +1,7 @@
 <template>
   <div>
-    <Nuxt />
+    <Sidebar />
+    <Nuxt class="ml-60" />
   </div>
 </template>
 
@@ -15,7 +16,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-  background-color: #f2f2f2;
+  background-color: #ececee;
 }
 
 *,

@@ -59,7 +59,7 @@ export default {
 <style lang="scss" scoped>
 .projects {
   &--wrapper {
-    @apply bg-gray-950 rounded-lg shadow;
+    @apply bg-white rounded-lg shadow;
   }
   &--heading__wrapper {
     @apply flex justify-between items-center bg-gray-920 py-3 pl-4 pr-3 rounded-lg rounded-b-none mb-0.25;

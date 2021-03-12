@@ -24,7 +24,7 @@ export default {
 <style lang="scss" scoped>
 .each-project {
   &--wrapper {
-    @apply flex justify-between content-center pl-4 mb-0.25 h-20 bg-white;
+    @apply flex justify-between content-center pl-4 border-b-1 border-gray-950 h-20 bg-white;
   }
   &--sub-wrapper {
     @apply text-gray-960 mt-5 mb-4;

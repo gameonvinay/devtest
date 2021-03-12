@@ -3,7 +3,7 @@
     <div class="barchart--heading__wrapper">
       <span class="barchart--heading">This Month</span>
       <span>
-        <Dropdown v-bind:options="options" />
+        <Dropdown :options="options" />
       </span>
     </div>
     <div class="chart-container">
@@ -33,7 +33,7 @@ export default {
 <style lang="scss" scoped>
 .barchart {
   &--wrapper {
-    @apply mt-13 ml-4.5 mr-3.5 mb-4 bg-white h-68 rounded-lg shadow;
+    @apply m-4 bg-white h-68 rounded-lg shadow;
   }
   &--heading__wrapper {
     @apply flex flex-1 justify-between items-center bg-gray-920 py-4 pl-4 pr-3 rounded-lg rounded-b-none;

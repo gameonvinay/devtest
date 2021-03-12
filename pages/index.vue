@@ -1,12 +1,12 @@
 <template>
-  <div class="bg-gray-950">
-    <Sidebar />
-    <div class="bg-gray-950 ml-60">
-      <BarChart />
-      <div class="task-project-grid">
-        <TasksTable />
-        <Projects />
-      </div>
+  <div class="bg-gray-930 ml-60">
+    <div class="ml-4">
+      <TopBar />
+    </div>
+    <BarChart />
+    <div class="task-project-grid mb-4">
+      <TasksTable />
+      <Projects />
     </div>
   </div>
 </template>
@@ -17,7 +17,7 @@ export default {}
 
 <style lang="scss">
 .task-project-grid {
-  @apply grid ml-4.5 mr-3.5;
+  @apply grid ml-4 mr-4;
   grid-template-columns: 2fr 1fr;
   grid-gap: 16px;
 }
